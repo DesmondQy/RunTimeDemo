@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import <objc/runtime.h>
 
 @interface ViewController ()
 
