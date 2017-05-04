@@ -15,6 +15,7 @@
 		1C0366A31EBB158D006E7F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0366A11EBB158D006E7F6C /* LaunchScreen.storyboard */; };
 		1C0366AE1EBB158D006E7F6C /* RunTimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0366AD1EBB158D006E7F6C /* RunTimeDemoTests.m */; };
 		1C0366B91EBB158D006E7F6C /* RunTimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0366B81EBB158D006E7F6C /* RunTimeDemoUITests.m */; };
+		1C0366C81EBB15C9006E7F6C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0366C71EBB15C9006E7F6C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1C0366B41EBB158D006E7F6C /* RunTimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0366B81EBB158D006E7F6C /* RunTimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeDemoUITests.m; sourceTree = "<group>"; };
 		1C0366BA1EBB158D006E7F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0366C61EBB15C9006E7F6C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1C0366C71EBB15C9006E7F6C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1C0366971EBB158D006E7F6C /* AppDelegate.m */,
 				1C0366991EBB158D006E7F6C /* ViewController.h */,
 				1C03669A1EBB158D006E7F6C /* ViewController.m */,
+				1C0366C61EBB15C9006E7F6C /* Person.h */,
+				1C0366C71EBB15C9006E7F6C /* Person.m */,
 				1C03669C1EBB158D006E7F6C /* Main.storyboard */,
 				1C03669F1EBB158D006E7F6C /* Assets.xcassets */,
 				1C0366A11EBB158D006E7F6C /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				1C03669B1EBB158D006E7F6C /* ViewController.m in Sources */,
 				1C0366981EBB158D006E7F6C /* AppDelegate.m in Sources */,
+				1C0366C81EBB15C9006E7F6C /* Person.m in Sources */,
 				1C0366951EBB158D006E7F6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
