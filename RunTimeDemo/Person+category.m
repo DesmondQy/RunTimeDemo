@@ -24,4 +24,7 @@ static void *strKey = &strKey;
     return objc_getAssociatedObject(self, &strKey);
 }
 
+
+
+
 @end

@@ -17,6 +17,7 @@
 		1C0366B91EBB158D006E7F6C /* RunTimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0366B81EBB158D006E7F6C /* RunTimeDemoUITests.m */; };
 		1C0366C81EBB15C9006E7F6C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0366C71EBB15C9006E7F6C /* Person.m */; };
 		1C0366CB1EBB2839006E7F6C /* Person+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0366CA1EBB2839006E7F6C /* Person+category.m */; };
+		1C0366CE1EBB292C006E7F6C /* NSURL+url.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0366CD1EBB292C006E7F6C /* NSURL+url.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		1C0366C71EBB15C9006E7F6C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		1C0366C91EBB2839006E7F6C /* Person+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+category.h"; sourceTree = "<group>"; };
 		1C0366CA1EBB2839006E7F6C /* Person+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+category.m"; sourceTree = "<group>"; };
+		1C0366CC1EBB292C006E7F6C /* NSURL+url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+url.h"; sourceTree = "<group>"; };
+		1C0366CD1EBB292C006E7F6C /* NSURL+url.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+url.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				1C0366C71EBB15C9006E7F6C /* Person.m */,
 				1C0366C91EBB2839006E7F6C /* Person+category.h */,
 				1C0366CA1EBB2839006E7F6C /* Person+category.m */,
+				1C0366CC1EBB292C006E7F6C /* NSURL+url.h */,
+				1C0366CD1EBB292C006E7F6C /* NSURL+url.m */,
 				1C03669C1EBB158D006E7F6C /* Main.storyboard */,
 				1C03669F1EBB158D006E7F6C /* Assets.xcassets */,
 				1C0366A11EBB158D006E7F6C /* LaunchScreen.storyboard */,
@@ -286,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0366CE1EBB292C006E7F6C /* NSURL+url.m in Sources */,
 				1C03669B1EBB158D006E7F6C /* ViewController.m in Sources */,
 				1C0366981EBB158D006E7F6C /* AppDelegate.m in Sources */,
 				1C0366C81EBB15C9006E7F6C /* Person.m in Sources */,

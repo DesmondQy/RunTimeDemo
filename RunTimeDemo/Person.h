@@ -14,6 +14,8 @@
 @property (nonatomic, copy) NSString *className;
 @property (nonatomic, assign) float score;
 @property (nonatomic, strong) NSNumber *number;
+
+
 - (void)demo;
 
 @end
